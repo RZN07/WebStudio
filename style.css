@@ -1,3 +1,11 @@
+:root{
+    --text:#626262;
+    --white:#fff;
+    --black:black;
+   --background:#2F303A;
+   --button:#2196F3;
+}
+
 a{
     text-decoration: none;
 }
@@ -6,56 +14,83 @@ ul{
     list-style: none;
 }
 
+h2{
+    font-family: 'Arial Black', sans-serif
+}
+
+h3{
+    font-family: 'Arial Black', sans-serif
+}
+
+p{
+    font-family: Arial, sans-serif
+}
+
+
 .header{
-    background-color: #FFFFFF;
+    background-color:var(--white);
+}
+
+.header_wrap{
     display: flex;
     flex-direction: row;
-    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.header_nav{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+.header_contacts{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
 }
 
 .container{
-    width: 1400px;
-    margin: 0 auto;
-    padding: 0 5px;
+    width: 1600px;
+    margin: 0 auto ;
+    padding: 0 15px 0 15px;
+    border:1px solid orangered;
 }
 
 .logo{
-    color: black;
+    color:var(--black);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     size: 26px;
     letter-spacing: 3;
+    margin-right: 93px;
+    padding: 25 0px;
 }
 
 .logo span{
-    color:#2196F3;
+    color:var(--button);
 }
 
 .link{
     font-family: Roboto, sans-serif;
-    color: black;
+    color:var(--black);
     font-weight: 500;
     transition: 0.2s;
 }
 
 .link:hover{
-    color:#2196F3;
+    color:var(--button);
 }
 
 .section1{
-    height: 600px;
-    top: 80px;
-    background-color: #2F303A;
-    color:#FFFFFF;
+    background-color:var(--background);
+    color:var(--white);
     align-items: center;
 }
 
 .sec1_h1{
     text-align: center;
-    width: 696;
-    height: 120px;
-    top: 280px;
-    left: 452px;
     font-family: Roboto, sans-serif;
     font-weight: bold;
     size: 44px;
@@ -70,10 +105,8 @@ ul{
     letter-spacing: 0.06em;
     margin: auto;
     border: none;
-    width: 216px;
-    height: 50px;
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color:var(--button);
+    color:var(--white);
     transition: 0.5s;
     display: block;
     border-radius: 4px;
@@ -81,7 +114,7 @@ ul{
 }
 
 .order_btn:hover{
-    color:#2196F3;
-    background-color: #FFFFFF;
+    color:var(--button);
+    background-color:var(--white);
     cursor: pointer;
 }

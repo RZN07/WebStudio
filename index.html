@@ -4,118 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href='style.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header container">
-        <nav>
-            <ul>
-                <li>
-                    <a class="logo" href="/index.html"><b><span>Web</span>Studio</b></a>
-                </li>
-                <li>
-                    <a class="link" href="/index.html">Студія</a>
-                </li>
-                <li>
-                    <a class="link" href="/portfolio.html">Портфоліо</a>
-                </li>
-                <li>
-                    <a class="link" href="#">Контакти</a>
-                </li>
-                <li>
-                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <br>
-        <div class="section1 container">
-            <h1 class="sec1_h1">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-            <button class="order_btn">Замовити послугу</button>
-        </div>
-        <br>
-        <br>
-        <div class="container">
-            <h2 style="font-family:'Arial Black'">Особливісті</h2>
-            <section>
-                <ul>
+    <header class="header">
+        <div class="container header_wrap">
+            <a class="logo" href="/index.html"><span>Web</span>Studio</a>
+            <nav class="header_wrap">
+                <ul class="header_nav">
                     <li>
-                        <h3 style="font-family:'Arial Black'">Увага до деталей</h3>
-                        <p style="font-family:Arial">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                        <a class="link" href="/index.html">Студія</a>
                     </li>
                     <li>
-                        <h3 style="font-family:'Arial Black'">Пунктуальність</h3>
-                        <p style="font-family:Arial">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                        <a class="link" href="/portfolio.html">Портфоліо</a>
                     </li>
                     <li>
-                        <h3 style="font-family:'Arial Black'">Планування</h3>
-                        <p style="font-family:Arial">Так само консультація з широким активом значною мірою зумовлює.</p>
-                    </li>
-                    <li>
-                        <h3 style="font-family:'Arial Black'">Сучасні технології</h3>
-                        <p style="font-family:Arial">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                        <a class="link" href="#">Контакти</a>
                     </li>
                 </ul>
-            </section>
+                <ul class="header_contacts">
+                    <li>
+                        <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <br>
-        <div  class="container">
-        <h2 style="font-family:'Arial Black'" align="center">Чим ми займаємося</h2>
-            <section align="center">
+    </header>
+    <main>
+        <section class="section1">
+            <div class="container">
+                <h1 class="sec1_h1">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+                <button class="order_btn">Замовити послугу</button>
+            </div>
+        </section>
+        <section class="container">
+            <h2>Особливісті</h2>
+            <ul>
+                <li>
+                    <h3>Увага до деталей</h3>
+                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                </li>
+                <li>
+                    <h3>Пунктуальність</h3>
+                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                </li>
+                <li>
+                    <h3>Планування</h3>
+                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                </li>
+                <li>
+                    <h3>Сучасні технології</h3>
+                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <div class="container">
+                <h2>Чим ми займаємося</h2>
                     <img src="/ЧимМиЗаймаємось Images/ЧимМиЗаймаємось1.jfif" height="160" width="250" align="justify">
                     <img src="/ЧимМиЗаймаємось Images/ЧимМиЗаймаємось2.jfif" height="160" width="250" align="justify">
                     <img src="/ЧимМиЗаймаємось Images/ЧимМиЗаймаємось3.jfif" height="160" width="250" align="justify">
-            </section>
-        </div>
-        <br>
-        <div  class="container">
-            <h2 style="font-family:'Arial Black'">Наша команда</h2>
-            <section>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2>Наша команда</h2>
                 <ul>
                     <li>
                         <img src="/Команда Images/Команда1.jfif" height="160" width="250">
-                        <h3 style="font-family:'Arial Black'">Ігор Дем'яненко</h3>
-                        <p style="font-family:Arial">Product Designer</p>
+                        <h3>Ігор Дем'яненко</h3>
+                        <p>Product Designer</p>
                     </li>
                     <br>
                     <li>
                         <img src="/Команда Images/Команда2.jfif" height="160" width="250">
-                        <h3 style="font-family:'Arial Black'">Ольга Рєпіна</h3>
-                        <p style="font-family:Arial">Frontend Developer</p>
+                        <h3>Ольга Рєпіна</h3>
+                        <p>Frontend Developer</p>
                     </li>
                     <br>
                     <li>
                         <img src="/Команда Images/Команда3.jfif" height="160" width="250">
-                        <h3 style="font-family:'Arial Black'">Микола Тарасов</h3>
-                        <p style="font-family:Arial">Marketing</p>
+                        <h3>Микола Тарасов</h3>
+                        <p>Marketing</p>
                     </li>
                     <br>
                     <li>
                         <img src="/Команда Images/Команда4.jfif" height="160" width="250">
-                        <h3 style="font-family:'Arial Black'">Михайло Єрмаков</h3>
-                        <p style="font-family:Arial">UI Designer</p>
+                        <h3>Михайло Єрмаков</h3>
+                        <p>UI Designer</p>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
     </main>
-    <br>
-    <br>
-    <br>
-    <br>
     <footer>
         <div class="container">
+            <a class="logo" href="/index.html"><span>Web</span>Studio</a>
             <ul>
                 <li>
-                    <a class="logo" href="/index.html"><span>Web</span>Studio</a>
-                </li>
-                <li>
-                    <font style="font-family:Arial" >м. Київ, пр-т Лесі Українки, 26</font>
+                    <p>м. Київ, пр-т Лесі Українки, 26</p>
                 </li>
                 <li>
                     <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -127,4 +119,4 @@
         </div>
     </footer>
 </body>
-</html>
+</html> 
