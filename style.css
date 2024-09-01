@@ -247,13 +247,13 @@ h1,h2,h3,h4,p,input,ul,li,img,  button{
 
 .our_team{
     margin-bottom: 94px;
+    background-color: #F5F4FA;
 }
 
 .our_team_list{
     display: flex;
     flex-direction: row;
     gap: 30px;
-    text-align: center;
 }
 
 .our_team_headertext{
@@ -262,6 +262,12 @@ h1,h2,h3,h4,p,input,ul,li,img,  button{
     font-weight: 700;
     font-size: 36px;
     line-height: 42.19px;
+}
+
+.ot_card{
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--white);
 }
 
 .ot_card_headertext{
@@ -278,6 +284,10 @@ h1,h2,h3,h4,p,input,ul,li,img,  button{
     line-height: 18.75px;
     letter-spacing: 0.03em;
     color:var(--text);
+}
+
+.test{
+    width: 270px;
 }
 
 .filter_btn{
