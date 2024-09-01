@@ -148,8 +148,6 @@ h1,h2,h3,h4,p,input,ul,li,img,  button{
 }
 
 .order_btn{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -172,7 +170,7 @@ h1,h2,h3,h4,p,input,ul,li,img,  button{
     cursor: pointer;
 }
 
-.order_btn:hover{
+.order_btn:focus{
     color:var(--button);
     background-color:var(--white);
     cursor: pointer;
@@ -190,6 +188,14 @@ h1,h2,h3,h4,p,input,ul,li,img,  button{
     row-gap: 9px;
     margin-top: 20px;
     margin-right: 80px;
+}
+
+.footer_address{
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 16.41px;
+    font-weight: 400;
+    color:var(--white);
 }
 
 .advantages{
@@ -253,4 +259,43 @@ h1,h2,h3,h4,p,input,ul,li,img,  button{
 .our_team_headertext{
     text-align: center;
     margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.19px;
+}
+
+.ot_card_headertext{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 0.03em;
+    margin: 30px 0px 10px;
+}
+
+.ot_card_text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 0.03em;
+    color:var(--text);
+}
+
+.filter_btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    transition: 0.5s;
+    margin: auto;
+    border: none;
+    color: var(--black);
+}
+
+.filter_btn:hover{
+    background-color:var(--button);
+    color:var(--white);
+    border-radius: 4px;
+    margin-top: 30px;
+    padding: 10px 32px;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.3);
 }
